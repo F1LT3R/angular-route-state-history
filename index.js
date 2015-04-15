@@ -59,7 +59,6 @@ console.log(123);
   app.controller('ScreenCtrl', ['$scope', '$location', '$routeParams', '$route', 'State',
   function($scope, $location, $routeParams, $route, State){
 
-    console.log(State);
 
     // When the $scope is initialized, create an empty model
     $scope.model = {};
